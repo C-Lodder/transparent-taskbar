@@ -155,18 +155,17 @@
     <ClInclude Include="resource.h" />
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="JoomJunkTaskbar.rc" />
-  </ItemGroup>
-  <ItemGroup>
-    <Image Include="E_Square_small.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="..\Readme.md" />
     <None Include="config.cfg" />
     <None Include="dynamic-ws-exclude.csv" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="SetWindowCompositionAttribute-description.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="JoomJunkTaskbar.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="E_Square_small.ico" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -21,9 +21,6 @@
       <UniqueIdentifier>{8a2e107d-81ab-4fd9-8067-e994a63ded11}</UniqueIdentifier>
       <Extensions>txt;md</Extensions>
     </Filter>
-    <Filter Include="LICENSE">
-      <UniqueIdentifier>{a96f464f-6d8c-4b19-81dd-c68fbaf1882e}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -36,6 +33,19 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
+    <None Include="config.cfg">
+      <Filter>Configuration Files</Filter>
+    </None>
+    <None Include="dynamic-ws-exclude.csv">
+      <Filter>Configuration Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="SetWindowCompositionAttribute-description.txt">
+      <Filter>Documentation</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
     <ResourceCompile Include="JoomJunkTaskbar.rc">
       <Filter>Resource Files</Filter>
     </ResourceCompile>
@@ -44,27 +54,5 @@
     <Image Include="E_Square_small.ico">
       <Filter>Resource Files</Filter>
     </Image>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="config.cfg">
-      <Filter>Configuration Files</Filter>
-    </None>
-    <None Include="dynamic-ws-exclude.csv">
-      <Filter>Configuration Files</Filter>
-    </None>
-    <None Include="..\usage.md">
-      <Filter>Documentation</Filter>
-    </None>
-    <None Include="..\Readme.md">
-      <Filter>Documentation</Filter>
-    </None>
-    <None Include="..\COPYING">
-      <Filter>LICENSE</Filter>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="SetWindowCompositionAttribute-description.txt">
-      <Filter>Documentation</Filter>
-    </Text>
   </ItemGroup>
 </Project>
